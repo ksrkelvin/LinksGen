@@ -8,7 +8,7 @@ router.get('/:title', linkController.redirect)
 router.post('/', express.urlencoded({ extended: true}), linkController.addLink)
 
 router.get('/', (req,res)=>{
-    res.send("Hello World")
+    res.render('index')
 })
 
 module.exports = router
