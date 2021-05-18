@@ -88,7 +88,7 @@ const editLink =  async(req, res)=>{
 
 
     try{
-        let doc = await Link.updateOne({_id:id}, link)
+        let doc = await Link.updateOne({_id:id }, link)
         res.redirect('/')
     } catch(error){
         res.render('edit',{error, body: req.body})
