@@ -1,2 +1,2 @@
 # LinksGen
-consultor e gerador de links atrave do mongo
+consultor e gerador de links atraves do mongo
